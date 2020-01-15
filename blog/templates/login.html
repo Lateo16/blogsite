@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="login-section">
+    <div class="login-info">
+        <h3 style="margin-top: 2px;">Log In</h3>
+        <hr style="margin-top: -19px; margin-bottom: 23px;">
+        <form action="">
+            <label for="username">Username*</label><br>
+            <input  type="text" id="username" size="84"><br><br>
+            <label for="password">Password*</label><br>
+            <input type="password" id="password" size="84"><br>
+            <p>
+                <input type="submit" name="login" id="loginBtn" value="Login">
+                <button id="forgetBtn">Forgot password</button>
+            </p>
+        </form>
+    </div>
+        <hr>
+        <ul>
+            <li class="no-account">Don't have account?</li>
+            <li><button id="signupBtn">Sign Up Now</button></li>
+        </ul>
+    </div>
+{% endblock %}

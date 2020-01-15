@@ -1,0 +1,41 @@
+.login-section {
+    width: 40%;
+    margin-left: 240px;
+    margin-top:70px;
+    padding:10px;
+}
+
+.login-info {
+    border: groove;
+    padding:5px 10px;
+    /*filter: drop-shadow(2px 2px 5px grey);*/
+    box-shadow: 1px 1px 1px white;
+    background-color: white;
+}
+
+#loginBtn {
+    color: blue;
+}
+
+#signupBtn {
+    margin-left:-5px;
+    background-color: whitesmoke;
+}
+
+#forgetBtn, #signupBtn {
+    color:blue;
+    border: none;
+}
+
+li {
+    display: inline;
+}
+
+.no-account {
+    font-size: 14px;
+    margin-left:-39px;
+}
+
+input {
+    height: 20px;
+}
