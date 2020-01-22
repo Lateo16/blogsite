@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content%}
+    <div class="signup-page">
+    <div class="signup-section">
+    <div class="signup-info">
+        <h3 style="margin-top: 2px;">Sign Up</h3>
+        <hr class="top-hr">
+        <form action="">
+            <label for="username">Username*</label><br>
+            <input  type="text" id="username"><br><br>
+            <label for="email">Email*</label><br>
+            <input type="email" id="email"><br><br>
+            <label for="password">Password*</label><br>
+            <input type="text" id="password"><br><br>
+            <label for="confirm-password">Confirm Password*</label><br>
+            <input type="text" id="confirm-password"><br><br>
+            <p>
+                <input type="submit" name="signup-btn" id="signup-btn" value="Sign up">
+            </p>
+        </form>
+    </div>
+        <hr class="bottom-hr">
+        <ul>
+            <li class="have-account">Already have an account?</li>
+            <li class=""><button id="signinBtn">Sign In</button></li>
+        </ul>
+    </div>
+    <div id="sidebar">
+        <div class="sidebar-content">
+            <h3 style="margin-left: 6px;margin-top: -3px;" >Our Sidebar</h3>
+            <p style="margin-left: 6px;margin-top: -11px;">You can put any information you like here.</p>
+            <ul type="none" style="margin-right: 5px;margin-top: -5px; margin-left: -35px;">
+                <li class="latest-posts">Latest posts</li>
+                <li class="announcements">Announcements</li>
+                <li class="calendars">Calenders</li>
+                <li class="etc">etc</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+{% endblock %}
