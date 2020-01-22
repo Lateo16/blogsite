@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="home-page">
+    <div class="post-section">
+        <div class="post-info">
+            <img src="{% static 'img/pic.jpg' %}" alt="profile img" class="user-img">
+            <div class="post-content">
+                <div>
+                    <h3 class="name_date" id="blogger-name">CoreyMS</h3>
+                    <h3 class="name_date" id="blog-date">Date</h3>
+                </div>
+                <h3 class="post-title">My latest Post</h3>
+                <div class="">
+                    <p>My latest post, very exciting...
+                        My latest post, very exciting,My latest post, very exciting
+                        My latest post, very exciting,My latest post, very exciting
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sidebar">
+        <div class="sidebar-content">
+            <h3 style="margin-left: 6px;margin-top: -3px;" >Our Sidebar</h3>
+            <p style="margin-left: 6px;margin-top: -11px;">You can put any information you like here.</p>
+            <ul type="none" style="margin-right: 5px;margin-top: -5px; margin-left: -35px;">
+                <li class="latest-posts">Latest posts</li>
+                <li class="announcements">Announcements</li>
+                <li class="calendars">Calenders</li>
+                <li class="etc">etc</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+{% endblock %}
