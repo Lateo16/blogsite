@@ -1,0 +1,82 @@
+.profile-page {
+    width: 100%;
+}
+
+.profile-info {
+    width: 40%;
+    margin-left: 240px;
+    margin-top:78px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: whitesmoke;
+    border: 1px solid #eeeeee;
+    padding:5px 10px;
+}
+
+#sidebar {
+    width: 23%;
+    border:  1px solid #eeeeee;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: whitesmoke;
+    float: right;
+    margin-top:75px;
+    margin-right: 160px;
+    font-weight: 100;
+}
+
+.sidebar-content {
+    padding: 10px;
+}
+
+li.latest-posts, li.calendars, li.announcements {
+    display: list-item;
+    border:1px solid #eeeeee;
+    padding:7px;
+    height: 13px;
+}
+
+li.etc{
+    display: list-item;
+    border:1px solid #eeeeee;
+    padding:7px;
+    margin-bottom:-10px;
+    height: 12px;
+}
+
+/*.name_img_section {*/
+/*    height: 15px;*/
+/*}*/
+
+.name_email_section {
+    float: right;
+    margin: -10px 280px 0 0;
+}
+
+.user-email {
+    margin-top: -18px;
+    font-weight: lighter;
+}
+
+.profile-img {
+    width: 18%;
+    border-radius: 50%;
+    height: 550%;
+    float: left;
+}
+
+input[type=text], input[type=email] {
+    width: 90%;
+    padding: 3px;
+}
+
+#user-name, #user-email {
+    font-size: 14px;
+}
+
+#update-btn {
+    border: 2px solid;
+}
+
+#choose-img {
+    border: 2px groove;
+}

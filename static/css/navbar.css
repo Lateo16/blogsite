@@ -10,7 +10,7 @@ nav {
 
 
  nav li {
-    display: inline;
+    /*display: inline;*/
     padding:1px;
     margin-bottom:5px;
 }

@@ -1,37 +1,49 @@
-.login-section {
+.login-page, .signup-page {
+    width: 100%;
+}
+
+.login-section, .signup-section {
     width: 40%;
     margin-left: 240px;
     margin-top:70px;
     padding:10px;
+    float: left;
 }
 
-.login-info {
-    border: groove;
+.login-info, .signup-info {
+    border: 1px solid #eeeeee;
     padding:5px 10px;
     /*filter: drop-shadow(2px 2px 5px grey);*/
-    box-shadow: 1px 1px 1px white;
-    background-color: white;
-}
-
-#loginBtn {
-    color: blue;
-}
-
-#signupBtn {
-    margin-left:-5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: whitesmoke;
 }
 
-#forgetBtn, #signupBtn {
+/*Style for both the sign up and login buttons*/
+#loginBtn, #signup-btn {
+    color: #a8ee88;
+    border: 2px solid #a8ee88;
+}
+
+/*Style when user has an account when at the sign up page and
+  also style of button for sign up at the login page*/
+#signupBtn, #signinBtn {
+    margin-left:-5px;
+    background-color: white;
     color:blue;
     border: none;
+}
+
+#forgetBtn {
+    color:blue;
+    border: none;
+    background-color: whitesmoke;
 }
 
 li {
     display: inline;
 }
 
-.no-account {
+.no-account, .have-account {
     font-size: 14px;
     margin-left:-39px;
 }
@@ -39,3 +51,54 @@ li {
 input {
     height: 20px;
 }
+
+#sidebar {
+    width: 23%;
+    border:  1px solid #eeeeee;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: whitesmoke;
+    float: right;
+    margin-top:79px;
+    margin-right: 160px;
+    font-weight: 100;
+}
+
+.sidebar-content {
+    padding: 10px;
+}
+
+li.latest-posts, li.announcements, li.calendars {
+    display: list-item;
+    border:1px solid #eeeeee;
+    padding:7px;
+    height: 13px;
+}
+
+
+li.etc{
+    display: list-item;
+    border:1px solid #eeeeee;
+    padding:7px;
+    margin-bottom:-10px;
+    height: 12px;
+}
+
+.top-hr {
+    margin: -19px 0 23px 0;
+    height: 1px;
+    border: none;
+    background-color: #eee
+}
+
+.bottom-hr {
+    margin: 15px 0 0 0;
+    height: 1px;
+    border: none;
+    background-color: #eee;
+}
+
+input[type=text], input[type=email] {
+    width: 90%;
+    padding: 3px;
+}
+
