@@ -7,16 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="{% static 'css/navbar.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/profile.css' %}" type="text/css">
     <link rel="stylesheet" href="{% static 'css/login.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/homepage.css' %}" type="text/css">
 </head>
-<body style="background-color: whitesmoke;">
+<body style="background-color: white;">
     <nav>
         <ul>
             <li class="blog-title">Django Blog</li>
             <li class="home">Home</li>
             <li class="about">About</li>
             <li class="logout">Logout</li>
-            <li class="profile">Profile</li>
+            <li class="profile"><a href="{% url 'profile' %}">Profile</a></li>
             <li class="new-post">New Post</li>
         </ul>
     </nav>
