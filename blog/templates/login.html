@@ -1,25 +1,39 @@
 {% extends 'base.html' %}
 
 {% block content %}
+    <div class="login-page">
     <div class="login-section">
     <div class="login-info">
         <h3 style="margin-top: 2px;">Log In</h3>
-        <hr style="margin-top: -19px; margin-bottom: 23px;">
+        <hr class="top-hr">
         <form action="">
             <label for="username">Username*</label><br>
-            <input  type="text" id="username" size="84"><br><br>
+            <input  type="text" id="username"><br><br>
             <label for="password">Password*</label><br>
-            <input type="password" id="password" size="84"><br>
+            <input type="text" id="password"><br>
             <p>
                 <input type="submit" name="login" id="loginBtn" value="Login">
                 <button id="forgetBtn">Forgot password</button>
             </p>
         </form>
     </div>
-        <hr>
+        <hr class="bottom-hr">
         <ul>
             <li class="no-account">Don't have account?</li>
-            <li><button id="signupBtn">Sign Up Now</button></li>
+            <li class=""><button id="signupBtn">Sign Up Now</button></li>
         </ul>
+    </div>
+    <div id="sidebar">
+        <div class="sidebar-content">
+            <h3 style="margin-left: 6px;margin-top: -3px;" >Our Sidebar</h3>
+            <p style="margin-left: 6px;margin-top: -11px;">You can put any information you like here.</p>
+            <ul type="none" style="margin-right: 5px;margin-top: -5px; margin-left: -35px;">
+                <li class="latest-posts">Latest posts</li>
+                <li class="announcements">Announcements</li>
+                <li class="calendars">Calenders</li>
+                <li class="etc">etc</li>
+            </ul>
+        </div>
+    </div>
     </div>
 {% endblock %}
