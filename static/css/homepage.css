@@ -1,0 +1,72 @@
+.home-page {
+    width: 100%;
+}
+
+.post-section {
+    width: 40%;
+    margin-left: 230px;
+    margin-top:80px;
+    border: 1px solid #eeeeee;
+    padding:5px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: whitesmoke;
+    float: left;
+}
+
+#sidebar {
+    width: 23%;
+    border:  1px solid #eeeeee;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: whitesmoke;
+    float: right;
+    margin-top:79px;
+    margin-right: 160px;
+    font-weight: 100;
+}
+
+.sidebar-content {
+    padding: 10px;
+}
+
+li.latest-posts, li.announcements, li.calendars {
+    display: list-item;
+    border:1px solid #eeeeee;
+    padding:7px;
+    height: 13px;
+}
+
+
+li.etc{
+    display: list-item;
+    border:1px solid #eeeeee;
+    padding:7px;
+    margin-bottom:-10px;
+    height: 12px;
+}
+
+
+.user-img {
+    width: 16%;
+    border-radius: 50%;
+    height: 400%;
+    float: left;
+}
+
+.post-content {
+    float: right;
+    width: 70%;
+    margin: -1px 50px 0 0;
+}
+
+.name_date {
+    display: inline;
+}
+
+#blogger-name {
+    color: blue;
+    margin-right: 10px;
+}
+
+#blog-date {
+    font-size: 14px;
+}
