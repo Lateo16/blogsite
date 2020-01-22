@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <div class="profile-page">
+    <div class="profile-section">
+    <div class="profile-info">
+        <div class="name_img_section">
+            <img src="{% static 'img/pic.jpg' %}" alt="profile-img" class="profile-img">
+            <div class="name_email_section">
+                <h2 class="user-name">Test</h2>
+                <p class="user-email">test@test.com</p>
+            </div>
+        </div>
+        <h3 style="margin-top: 100px;">Profile Information</h3>
+        <hr class="top-hr">
+        <form action="">
+            <label for="username">Username*</label><br>
+            <input  type="text" id="user-name"   value="test"><br><br>
+            <label for="email">Email*</label><br>
+            <input type="email" id="user-email"  value="test@test.com"><br><br>
+            <p>Image*</p>
+            <p>
+                Change <button id="choose-img">Choose File</button>
+            </p>
+            <p>
+                <input type="submit" name="update-btn" id="update-btn" value="Update">
+            </p>
+        </form>
+    </div>
+    </div>
+    <div id="sidebar">
+        <div class="sidebar-content">
+            <h3 style="margin-left: 6px;margin-top: -3px;" >Our Sidebar</h3>
+            <p style="margin-left: 6px;margin-top: -11px;">You can put any information you like here.</p>
+            <ul type="none" style="margin-right: 5px;margin-top: -5px; margin-left: -35px;">
+                <li class="latest-posts">Latest posts</li>
+                <li class="announcements">Announcements</li>
+                <li class="calendars">Calenders</li>
+                <li class="etc">etc</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+{% endblock %}
