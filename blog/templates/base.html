@@ -15,11 +15,11 @@
     <nav>
         <ul>
             <li class="blog-title">Django Blog</li>
-            <li class="home">Home</li>
-            <li class="about">About</li>
-            <li class="logout">Logout</li>
+            <li class="home"><a href="{% url 'homepage' %}">Home</a></li>
+            <li class="about"><a href=""> About</a></li>
+            <li class="logout"><a href=""> Logout</a></li>
             <li class="profile"><a href="{% url 'profile' %}">Profile</a></li>
-            <li class="new-post">New Post</li>
+            <li class="new-post"><a href="{% url 'newpost' %}">New Post</a></li>
         </ul>
     </nav>
     {% block content %}

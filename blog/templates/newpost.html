@@ -1,24 +1,18 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <div class="login-page">
-    <div class="login-section">
-    <div class="login-info">
-        <h3 style="margin-top: 2px;">Log In</h3>
+    <div class="newpost-page">
+    <div class="newpost-section">
+    <div class="newpost-info">
+        <h3 style="margin-top: 2px;">New Post</h3>
         <hr class="top-hr">
         <form action="" method="POST">{% csrf_token %}
             {{ form.as_p}}
             <p>
-                <input type="submit" name="login" id="loginBtn" value="Login">
-                <button id="forgetBtn">Forgot password</button>
+                <input type="submit" name="login" id="postBtn" value="Post">
             </p>
         </form>
     </div>
-        <hr class="bottom-hr">
-        <ul>
-            <li class="no-account">Don't have account?</li>
-            <li class=""><button id="signupBtn">Sign Up Now</button></li>
-        </ul>
     </div>
     <div id="sidebar">
         <div class="sidebar-content">
