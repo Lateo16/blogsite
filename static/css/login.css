@@ -1,8 +1,8 @@
-.login-page, .signup-page {
+.login-page, .signup-page, .newpost-page {
     width: 100%;
 }
 
-.login-section, .signup-section {
+.login-section, .signup-section, .newpost-section {
     width: 40%;
     margin-left: 240px;
     margin-top:70px;
@@ -10,7 +10,7 @@
     float: left;
 }
 
-.login-info, .signup-info {
+.login-info, .signup-info, .newpost-info {
     border: 1px solid #eeeeee;
     padding:5px 10px;
     /*filter: drop-shadow(2px 2px 5px grey);*/
@@ -19,7 +19,7 @@
 }
 
 /*Style for both the sign up and login buttons*/
-#loginBtn, #signup-btn {
+#loginBtn, #signup-btn, #postBtn {
     color: #a8ee88;
     border: 2px solid #a8ee88;
 }
@@ -98,7 +98,20 @@ li.etc{
 }
 
 input[type=text], input[type=email] {
-    width: 90%;
+    width: 98%;
     padding: 3px;
+}
+
+input[type=password] {
+    width: 98%;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+textarea {
+    width: 98.5%;
 }
 
